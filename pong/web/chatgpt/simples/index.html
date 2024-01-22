@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pong Game</title>
+  <style>
+    /* Estilos CSS */
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: black;
+      color: white;
+    }
+    #game {
+      position: relative;
+      width: 600px;
+      height: 400px;
+      background-color: #333;
+    }
+    .paddle {
+      position: absolute;
+      width: 10px;
+      height: 80px;
+      background-color: white;
+    }
+    #leftPaddle {
+      left: 10px;
+    }
+    #rightPaddle {
+      right: 10px;
+    }
+    .ball {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background-color: white;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div id="game">
+    <div id="leftPaddle" class="paddle"></div>
+    <div id="rightPaddle" class="paddle"></div>
+    <div id="ball" class="ball"></div>
+  </div>
+  <script src="pong.js"></script>
+</body>
+</html>
+<!--PROMPT: Crie um jogo de Pong, utilizando javascript, html e css-->

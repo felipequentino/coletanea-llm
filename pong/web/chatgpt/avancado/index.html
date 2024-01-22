@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pong Game</title>
+  <style>
+    /* Estilos CSS para o jogo */
+    body {
+      margin: 0;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+    
+    .game-container {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      background-color: #000;
+    }
+
+    .ball, .paddle {
+      position: absolute;
+      background-color: #fff;
+    }
+
+    .ball {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+    }
+
+    .paddle {
+      width: 10px;
+      height: 80px;
+    }
+
+    #player1 {
+      left: 10px;
+    }
+
+    #player2 {
+      right: 10px;
+    }
+
+    /* Estilos adicionais para os controles de personalização */
+    .controls {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      z-index: 100;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Controles de personalização -->
+  <div class="controls">
+    <h3>Personalização</h3>
+    <label for="paddleColor">Cor da Raquete:</label>
+    <input type="color" id="paddleColor" value="#ffffff"><br><br>
+    
+    <label for="ballColor">Cor da Bola:</label>
+    <input type="color" id="ballColor" value="#ffffff"><br><br>
+    
+    <label for="backgroundColor">Cor do Plano de Fundo:</label>
+    <input type="color" id="backgroundColor" value="#000000"><br><br>
+  </div>
+
+  <!-- Jogo de Pong -->
+  <div class="game-container">
+    <div class="ball"></div>
+    <div class="paddle" id="player1"></div>
+    <div class="paddle" id="player2"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

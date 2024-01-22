@@ -1,0 +1,21 @@
+GPT 
+Crie um jogo de Pong, utilizando webassembly
+[...] = Código sem lógica de renderização, att de raquete, bola, etc,
+apenas carregando os módulos
+
+Erro1: Uncaught ReferenceError: require is not defined
+[...] = este erro sumiu e pedi para implementar as lógicas.
+
+Implemente toda as lógicas que você deixou de adicionar, apenas quero um jogo pong funcional
+
+Erro2:Uncaught TypeError: Module._main is not a function
+
+[...] = novo código resolveu
+
+Erro3: Uncaught SyntaxError: expected expression, got '?'
+
+[...] = Funcionou
+
+Erro4: PaddleY is not defined
+
+[...] = Jogo """Funcionando"""

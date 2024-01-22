@@ -1,0 +1,22 @@
+canvas {
+    border: 1px solid black;
+  }
+  
+  .player {
+    width: 100px;
+    height: 20px;
+    background-color: red;
+  }
+  
+  .cpu {
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+  }
+  
+  .ball {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+  }
+  

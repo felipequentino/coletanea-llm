@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        canvas {
+            border: 1px solid #000;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+    <title>Pong Game</title>
+</head>
+<body>
+    <canvas id="pongCanvas" width="800" height="400"></canvas>
+
+    <script>
+        const canvas = document.getElementById("pongCanvas");
+        const ctx = canvas.getContext("2d");
+
+
+        // Importa o módulo WebAssembly
+        async function initWebAssembly() {
+            const response = await fetch('pong.wasm');
+            const buffer = await response.arrayBuffer();
+            const result = await WebAssembly.instantiate(buffer, {});
+            Module = result.instance.exports;
+            Module.onRuntimeInitialized = startGame;
+        }
+
+        // Importa funções do módulo WebAssembly
+        function get_paddle1_position() {
+            return Module.get_paddle1_position();
+        }
+
+        function set_paddle1_position(position) {
+            Module.set_paddle1_position(position);
+        }
+
+        // Inicializa o módulo WebAssembly
+        initWebAssembly();
+
+        // Definindo propriedades iniciais
+        const paddleWidth = 10;
+        const paddleHeight = 60;
+        let paddle1Y = (canvas.height - paddleHeight) / 2;
+        let paddle2Y = (canvas.height - paddleHeight) / 2;
+        let ballX = canvas.width / 2;
+        let ballY = canvas.height / 2;
+        let ballSpeedX = 5;
+        let ballSpeedY = 5;
+
+        // Função de desenho das raquetes
+        function drawPaddles() {
+            ctx.fillStyle = "#000";
+            ctx.fillRect(0, paddle1Y, paddleWidth, paddleHeight);
+            ctx.fillRect(canvas.width - paddleWidth, paddle2Y, paddleWidth, paddleHeight);
+        }
+
+        // Função de desenho da bola
+        function drawBall() {
+            ctx.beginPath();
+            ctx.arc(ballX, ballY, 8, 0, Math.PI * 2);
+            ctx.fillStyle = "#000";
+            ctx.fill();
+            ctx.closePath();
+        }
+
+        // Função principal de desenho
+        function draw() {
+            // Limpa o canvas
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Move a bola
+            ballX += ballSpeedX;
+            ballY += ballSpeedY;
+
+            // Verifica colisões e ajusta a direção da bola
+            // (implementação básica, ajuste conforme necessário)
+            // ...
+
+            // Desenha as raquetes e a bola
+            drawPaddles();
+            drawBall();
+
+            // Solicita a próxima animação
+            requestAnimationFrame(draw);
+        }
+
+        // Inicialização do jogo
+        function startGame() {
+            setInterval(draw, 16); // 60fps
+        }
+
+        // Evento de controle de teclas
+        window.addEventListener("keydown", function (e) {
+            // Implemente lógica para controlar as raquetes
+            if (e.key === "ArrowUp") {
+                // Chame a função WebAssembly para mover a raquete para cima
+                pongModule._set_paddle1_position(pongModule._get_paddle1_position() - 10);
+            } else if (e.key === "ArrowDown") {
+                // Chame a função WebAssembly para mover a raquete para baixo
+                pongModule._set_paddle1_position(pongModule._get_paddle1_position() + 10);
+            }
+            // ...
+        });
+
+
+        // Inicializa o jogo quando a página carrega
+        window.onload = function () {
+            startGame();
+        };
+        // Importando o módulo WebAssembly
+        const Module = {
+            onRuntimeInitialized: startGame,
+        };
+
+        // Importando as funções definidas em C++
+        const pongModule = require('./pong.js');
+
+        // Inicializando o módulo WebAssembly
+        pongModule(Module);
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Game</title>
+</head>
+<body>
+    <canvas id="pongCanvas" width="800" height="600"></canvas>
+    <script>
+        const canvas = document.getElementById('pongCanvas');
+        const ctx = canvas.getContext('2d');
+
+        let paddleY = 0; // Inicializa paddleY na posição 0
+        // Função JavaScript para renderizar o jogo
+        function renderGame(ballX, ballY) {
+            // Limpar o canvas
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Desenhar a raquete
+            ctx.fillStyle = '#00F';
+            ctx.fillRect(780, paddleY, 20, 100);
+
+            // Desenhar a bola
+            ctx.fillStyle = '#F00';
+            ctx.beginPath();
+            ctx.arc(ballX, ballY, 10, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.closePath();
+        }
+
+        // Carregar o módulo WebAssembly e iniciar o jogo
+        const script = document.createElement('script');
+        script.src = 'pong.js';
+        script.async = true;
+        script.onload = () => {
+            // O arquivo pong.js foi carregado, agora podemos inicializar o módulo
+            const Module = {
+                onRuntimeInitialized: () => {
+                    // Iniciar o jogo após a inicialização do WebAssembly
+                    Module.ccall('main', null, [], []);
+                }
+            };
+        };
+        document.body.appendChild(script);
+    </script>
+</body>
+</html>

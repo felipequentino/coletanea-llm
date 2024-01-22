@@ -1,0 +1,20 @@
+canvas {
+    border: 1px solid black;
+  }
+  
+  .raquete {
+    width: 100px;
+    height: 20px;
+    background-color: red;
+  }
+  
+  .bola {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+  }
+  
+  #background {
+    background-image: url("background.jpg");
+  }
+  
