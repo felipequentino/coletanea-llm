@@ -27,3 +27,14 @@ melhor do que os outros níveis.
 
 
 --------------------------------------- LUA --------------------------------------
+
+Calculadora simples: A "interface gráfica" deste projeto foi basicamente um terminal aprimorado, detectando o número e operação, entretanto,
+o resultado foi bem ruim, pois o único operando funcional é o '-', já que os o num Pad não funciona neste terminal, e os outros sinais
+matemáticos necessitam de comandos duplos, como 'BotãoShift + 'BotãoMaisIgual§'.
+
+Calculadora média: Bem simples, mas agora com uma interface gráfica e funcional, contendo apenas as 4 operações simples. Não teve nenhum
+bug.
+
+Claculadora avançada: Neste projeto, o GPT decidiu fazer 4 arquivos e me enviar seus códigos separados, com a mesma proposta de outros prompts:
+"Te mando o esqueleto e você completa". Mandei ele completar, de pouco em pouco, mas o resultado final é simplesmente uma tela dividida 
+entre duas cores, não há botões aparentes e não há respostas do teclado. O pior resultado até agora.
