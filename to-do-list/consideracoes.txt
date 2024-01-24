@@ -1,0 +1,27 @@
+--------------------------------------- WEB --------------------------------------
+
+To-do list simples: Interface bem-feita, mas o projeto é mais simples do que o normal, apresentando apenas o botão de adicionar a tarefa.
+
+To-do list média: Projeto surpreendentemente bem feito: salva as tasks no local storage, de modo que quando o usuário reinicia a página
+as tarefas continuam lá; consegue baixar as tarefas em um arquivo .json. Além disso, a interface é praticamente idêntica ao To-do simples. 
+
+To-do list avançada: Mesmo com o prompt da engenharia reversa, este deu trabalho. Por tantos detalhes requisitados, o código resultava
+em erros, interface gráfica quebrada e com botões sem funcionar. Deste modo, decidi pedir os detalhes aos poucos, pedindo iniciamente
+metade do prompt do prompt avançado, e em seguida pedindo para ajeitar a interface e salvar os dados no LocalStorage, por mais que eu tenha
+tido mais trabalho, o resultado final ficou ótimo.
+--------------------------------------- PYTHON --------------------------------------
+
+To-do list simples: Do mesmo jeito que a calculadora, se o usuário não pedir uma GUI, ele vai fazer uma to-do list via terminal. O resultado
+deste foi melhor que o Web, tendo um botão a mais para remover as tarefas.
+
+To-do list média: Este to-do list consegue marcar as tarefas como concluída e salvam as tarefas em um arquivo.txt através de um botão, e
+recupera as tarefas por meio da leitura deste arquivo.txt.
+
+To-do list avançada: Mandei o prompt por inteiro e o primeiro resultado não estava bom, as caixas de input abriam apenas a partir da
+finalização da anterior, e a data o usuário tinha que digitar manualmente, mandei outro prompt em outro chat especificando que queria
+as inputs boxs separadas, que algumas seriam box select (categoria e prioridade) e uma caixa de calendário. A partir disso ele me enviou
+um código com apenas um erro, mas que facilmente ele consertou em seguida após eu pedir. O resultado final foi muito agradável, e o mais
+surpreendente foi a escolha dele de usar SQLite3 para guardar e recuperar os dados.
+
+
+--------------------------------------- LUA --------------------------------------

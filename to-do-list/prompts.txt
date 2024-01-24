@@ -74,4 +74,44 @@ aspecto do sistema. Aqui está um exemplo mais aprofundado de uma solicitação:
     Interface de Usuário Simples:
         Uma interface amigável para facilitar a interação.
 
-1º prompt (em um novo chat)
+
+
+1º prompt (em um novo chat): Olá, gostaria de um to-do list em Javascript, HTML, CSS, com os seguintes recursos e detalhes:
+
+    Adição de Tarefas:
+        Permitir a adição de tarefas com um título, descrição e data de vencimento.
+
+    Remoção de Tarefas:
+        Capacidade de remover tarefas específicas com base no título ou identificador único.
+
+    Priorização de Tarefas:
+        Opção para definir a prioridade de cada tarefa (alta, média, baixa).
+
+    Categorias:
+        Permitir a categorização de tarefas em diferentes categorias (trabalho, pessoal, estudos, etc.).
+
+    Conclusão de Tarefas:
+        Marcação de tarefas como concluídas, com a opção de adicionar notas de conclusão.
+
+    Visualização:
+        Capacidade de visualizar a lista de tarefas pendentes, ordenadas por data de vencimento e prioridade.
+
+    Persistência de Dados:
+        Opção para salvar as tarefas em um arquivo ou banco de dados para persistência entre execuções.
+
+    Interface de Usuário Simples:
+        Uma interface amigável para facilitar a interação.
+
+2º prompt: Agora faça uma interface gráfica amigável
+
+3º prompt: Salve as informações, para quando eu reiniciar o navegador, as tarefas não desaparecerem, pode salvar 
+no LocalStorage ou algo semelhante
+
+----------------------------------------------- LINKS ---------------------------------------------
+Web simples     => https://chat.openai.com/share/f01a5e22-dc02-4438-847b-ca7493f9b641
+Web medio       => https://chat.openai.com/share/aa32d473-3785-4c2f-bc10-94c3312912cb
+Web avançado    => https://chat.openai.com/share/20baca81-90ea-4873-b4ee-a7ede996e8c0
+
+Python simples  => https://chat.openai.com/share/b531dad0-7e2d-4fb9-ba6e-18beecdcccf3
+Python medio    => https://chat.openai.com/share/320fb69c-9bf1-4ebc-b827-14e2512e7696
+Python avançado => https://chat.openai.com/share/d4382b08-6a96-48af-92aa-65cec3b8b0ad
