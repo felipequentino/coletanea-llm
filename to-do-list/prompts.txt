@@ -1,0 +1,77 @@
+ESTE PROJETO FOI USANDO 'ENGENHARIA REVERSA' NOS PROMPTS DO CHAT-GPT 3.5;
+{$"javascript, html e css"} trocado por Python; Lua; Julia;
+
+O primeiro código que ele me forneceu pela engenharia reversa, decidi enquadrar na projeto Medio, por ter vários detalhes já.
+
+--------------------------- TO-DO LIST SIMPLES -----------------------------
+1º prompt (chat 1) = 'Olá, eu gostaria de um to-do list simples em Javascript,HTML,CSS'
+
+
+
+--------------------------- TO-DO LIST MEDIO -----------------------------
+ 
+1º prompt (chat novo) = 'Se eu quiser te pedir para que você faça um to-do list em alguma linguagem, o que eu tenho que lhe pedir?'
+
+CHATGPT = 'Para solicitar um to-do list em uma linguagem específica, você pode fornecer detalhes sobre a linguagem de programação 
+desejada e as funcionalidades específicas que gostaria de incluir no to-do list. Aqui está um exemplo genérico de como você poderia fazer
+essa solicitação:
+
+"Olá, eu gostaria de um to-do list simples em [insira a linguagem de programação desejada], com as seguintes funcionalidades:
+
+    Adição de tarefas.
+    Remoção de tarefas.
+    Marcação de tarefas como concluídas.
+    Exibição da lista de tarefas pendentes.
+    Opção para salvar as tarefas em um arquivo.
+    Por favor, crie o código considerando essas funcionalidades. Obrigado!"
+
+Lembre-se de que a complexidade e os detalhes específicos podem variar dependendo da linguagem escolhida e das características
+adicionais desejadas para o to-do list.
+
+Diga-me quais funcionalidades você gostaria de ter na calculadora, e eu ficarei feliz em ajudar a criar uma para você!'
+
+1º prompt (Em um novo chat): 'Olá, eu gostaria de um to-do list simples em Javascript,HTML,CSS, com as seguintes funcionalidades:
+
+    Adição de tarefas.
+    Remoção de tarefas.
+    Marcação de tarefas como concluídas.
+    Exibição da lista de tarefas pendentes.
+    Opção para salvar as tarefas em um arquivo.
+    Por favor, crie o código considerando essas funcionalidades. Obrigado'
+
+
+
+--------------------------- TO-DO LIST AVANCADO -----------------------------
+
+2º prompt = 'E se eu quiser um to-do list com MAIS detalhes do que este?'
+
+CHATGPT = 'Se você deseja um to-do list com ainda mais detalhes, é recomendável fornecer especificações muito detalhadas sobre cada
+aspecto do sistema. Aqui está um exemplo mais aprofundado de uma solicitação:
+
+"Olá, gostaria de um to-do list em [insira a linguagem de programação desejada], com os seguintes recursos e detalhes:
+
+    Adição de Tarefas:
+        Permitir a adição de tarefas com um título, descrição e data de vencimento.
+
+    Remoção de Tarefas:
+        Capacidade de remover tarefas específicas com base no título ou identificador único.
+
+    Priorização de Tarefas:
+        Opção para definir a prioridade de cada tarefa (alta, média, baixa).
+
+    Categorias:
+        Permitir a categorização de tarefas em diferentes categorias (trabalho, pessoal, estudos, etc.).
+
+    Conclusão de Tarefas:
+        Marcação de tarefas como concluídas, com a opção de adicionar notas de conclusão.
+
+    Visualização:
+        Capacidade de visualizar a lista de tarefas pendentes, ordenadas por data de vencimento e prioridade.
+
+    Persistência de Dados:
+        Opção para salvar as tarefas em um arquivo ou banco de dados para persistência entre execuções.
+
+    Interface de Usuário Simples:
+        Uma interface amigável para facilitar a interação.
+
+1º prompt (em um novo chat)

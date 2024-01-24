@@ -1,0 +1,29 @@
+--------------------------------------- WEB --------------------------------------
+
+Calculadora simples: bem feita, nada a reclamar, funcional.
+
+Calculadora média: O maior problema desta é o uso da função eval() do javascript, provocando diversos erros ('Error' ou erro de cálculo)
+nas funções que NÃO são adição/subtração/divisão/multiplicação. 
+
+Calculadora avançada: ChatGPT me concedeu o esqueleto do projeto e delegou o resto das especifiações do projeto para mim, entretando
+eu o pedi para fazer as especificações e ajustes ao decorrer, por exemplo, a primeira versão das funções por trás dos cálculos foi 
+usando eval() novamente, mas ele mesmo disse que não é aconselhável e me sugeriu usar math.js, pedi exatamente isso. Ademais, pedi 
+um ajuste visual e o resultado foi muito bom. Todas as funções funcionando e o visual ficou amigável, até com efeitos hover nos botões.
+
+--------------------------------------- PYTHON --------------------------------------
+
+Calculadora simples: bem feita, nada a reclamar devido a simplicidade do prompt, um detalhe é que o primeiro 
+código do ChatGPT foi sem usar interface gráfica, se lançar o mesmo prompt do WEB, só trocando a lang, ele 
+faz sem usar GUI, o usuário tem que especificar isto.
+
+Calculadora média: Novamente, o maior problema deste resultado é o uso da eval(), provocando os mesmos erros do projeto web. 
+
+Calculadora avançada: O chatgpt usou eval() novamente, mas pedi para eu reescrever sem ele usar esta função, pedindo para que ele
+criasse uma função para cada operação matemática, e o bizarro foi: ele concordou, 'reescreveu' o código usando eval() novamente
+e disse que 'Este código utiliza funções separadas para realizar cálculos, evitando o uso de eval()'. Esta alucinação ocorreu 4 vezes,
+Depois que eu falei o que estava dando errado sem mencionar que era por causa do eval(), ele modificou o código sem usar o eval(), mas
+esse resultado quebrou todas as funções. A versão anterior apresenta todas as funções básicas funcionando, e com uma interface bem
+melhor do que os outros níveis.
+
+
+--------------------------------------- LUA --------------------------------------

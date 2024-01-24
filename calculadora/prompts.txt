@@ -1,0 +1,109 @@
+ESTE PROJETO FOI USANDO 'ENGENHARIA REVERSA' NOS PROMPTS DO CHAT-GPT 3.5;
+{$"javascript, html e css"} trocado por Python; Lua; Julia;
+
+--------------------------- CALCULADORA SIMPLES -----------------------------
+ 
+1º prompt (chat 1) = 'Eu quero lhe pedir para fazer uma calculadora, como eu posso pedir isto para você?'
+
+CHATGPT = 'Certamente! Você pode solicitar uma calculadora especificando as operações que deseja incluir e qualquer recurso adicional 
+que gostaria que ela tivesse. Por exemplo, você pode pedir uma calculadora simples para adição, subtração, multiplicação e divisão, 
+ou você pode pedir algo mais avançado, como uma calculadora que inclua funções trigonométricas, logaritmos, ou até mesmo recursos 
+de memória.
+
+Diga-me quais funcionalidades você gostaria de ter na calculadora, e eu ficarei feliz em ajudar a criar uma para você!'
+
+1º prompt (Em um novo chat): 'Quero que você faça uma calculadora simples para adição, subtração, multiplicação e divisão, 
+utilizando {$"javascript, html e css"}'
+
+--------------------------- CALCULADORA MEDIO -----------------------------
+
+2º prompt (chat 1) = 'Se eu quiser uma calculadora com mais detalhes, como eu te peço isto?'
+
+CHATGPT = 'Se você deseja uma calculadora com mais detalhes e recursos específicos, pode fornecer uma lista mais detalhada das funcionalidades que gostaria de incluir. Aqui está um exemplo de como você pode solicitar uma calculadora mais avançada:
+
+"Eu gostaria de uma calculadora que inclua as operações básicas de adição, subtração, multiplicação e divisão. Além disso, gostaria que ela tivesse as seguintes funcionalidades:
+
+    Potenciação
+    Radiciação
+    Funções trigonométricas (seno, cosseno, tangente)
+    Logaritmos
+    Capacidade de armazenar e recuperar valores em uma memória
+    Conversão de unidades (por exemplo, de metros para centímetros)
+
+Posso obter uma calculadora com esses recursos?"
+
+Claro, você pode ajustar a lista de funcionalidades conforme suas necessidades e especificações. Depois de fornecer esses detalhes, eu posso ajudar a criar uma calculadora que atenda às suas necessidades'
+
+1º prompt (Em um novo chat): 'Quero que você faça uma calculadora em javascript, html, css, que inclua as operações básicas de adição, subtração, multiplicação e divisão. Além disso, gostaria que ela tivesse as seguintes funcionalidades:
+
+    Potenciação;
+    Radiciação;
+    Funções trigonométricas (seno, cosseno, tangente);
+    Logaritmos;
+    Capacidade de armazenar e recuperar valores em uma memória;
+    Conversão de unidades (por exemplo, de metros para centímetros);'
+
+--------------------------- CALCULADORA AVANCADO -----------------------------
+
+3º prompt (chat 1) = 'E se eu quiser uma calculadora com AINDA MAIS detalhes, como um visual mais aprimorado e mais funções, como posso te pedir isso?'
+
+CHATGPT = 'Se você quiser uma calculadora com ainda mais detalhes, incluindo um visual aprimorado e uma gama mais ampla de funções, você pode fornecer uma descrição mais específica dos elementos visuais desejados e das operações adicionais que gostaria de incluir. Aqui está um exemplo de como você pode solicitar uma calculadora mais avançada com esses detalhes:
+
+"Estou buscando uma calculadora altamente avançada com um visual moderno e funcionalidades abrangentes. Gostaria que ela incluísse:
+
+    Operações Básicas:
+        Adição
+        Subtração
+        Multiplicação
+        Divisão
+
+    Operações Avançadas:
+        Potenciação
+        Radiciação
+        Funções trigonométricas (seno, cosseno, tangente)
+        Logaritmos
+        Fatorial
+
+    Recursos Visuais:
+        Interface gráfica moderna e intuitiva
+        Teclado virtual interativo
+        Possibilidade de personalizar cores e tema
+
+    Recursos Adicionais:
+        Histórico de cálculos
+        Conversão de unidades abrangente
+        Gráficos para funções matemáticas
+        Capacidade de salvar expressões personalizadas
+
+Posso obter uma calculadora com esses recursos? Se possível, gostaria de uma interface que seja fácil de usar e agradável visualmente."
+
+Ao fornecer esses detalhes, posso ajudar a criar uma descrição mais precisa de uma calculadora com os recursos desejados. Se tiver requisitos específicos em mente, sinta-se à vontade para incluí-los na sua solicitação.'
+
+1º prompt (Em um novo chat): 'Quero que você faça uma calculadora altamente avançada em javascript, html e css, com um visual moderno e funcionalidades abrangentes. Gostaria que ela incluísse:
+
+    Operações Básicas:
+        Adição
+        Subtração
+        Multiplicação
+        Divisão
+
+    Operações Avançadas:
+        Potenciação
+        Radiciação
+        Funções trigonométricas (seno, cosseno, tangente)
+        Logaritmos
+        Fatorial
+
+    Recursos Visuais:
+        Interface gráfica moderna e intuitiva
+        Teclado virtual interativo
+        Possibilidade de personalizar cores e tema
+
+    Recursos Adicionais:
+        Histórico de cálculos
+        Conversão de unidades abrangente
+        Gráficos para funções matemáticas
+        Capacidade de salvar expressões personalizadas
+    Interface:
+        Fácil de usar
+        Agradável visualmente.'
