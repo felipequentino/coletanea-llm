@@ -1,0 +1,9 @@
+
+O prompt simples requisita a criação do CRUD de maneira direta, sem muitos detalhes da aplicação.
+
+-- Prompt utilizado
+--- Crie um programa que faça as operações CRUD em um banco de dados. Use a linguagem python para faze-lo.
+
+-- Resultado
+--- O chat criou um programa usando o SQLite como base de dados. O código foi bem estruturado, com funcões bem definidas e comentários explicativos. Como não foi criada uma interface gráfica, a interação com o usuário foi feita através do terminal. Não houveram erros na execução do código.
+--- O chat GPT cria todo o programa primeiro para só depois explicar o que faz.

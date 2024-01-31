@@ -1,0 +1,9 @@
+O prompt simples requisita a criação do CRUD de maneira direta, sem muitos detalhes da aplicação.
+
+-- Prompt utilizado
+--- Crie um programa que faça as operações CRUD em um banco de dados. Use a linguagem python para faze-lo.
+
+-- Resultado
+--- O chat criou um CRUD usando o mysql como SGBD. Da mesma forma que o GPT, usou o terminal e comandos estaticos para realizar as operações. A saída e resultados das funções também foram mostradas no terminal.
+--- O bard explica as linhas do codigo conforme vai criando-as, o que, pessoalmente, não me agrada pois tira um pouco a continuidade da leitura do codigo.
+--- Em comparação com o chatGPT, o tempo de resposta do bard é mais lento.
