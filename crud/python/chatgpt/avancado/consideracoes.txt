@@ -1,0 +1,2 @@
+--- Crie um programa usando a linguagem de programação python. Esse programa deverá realizar as operações Create, Read, Update e Delete em um banco de dados postgresql. 
+--- O banco de dados deverá ser criado e populado com os dados necessários para as operações.

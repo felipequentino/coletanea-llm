@@ -1,0 +1,9 @@
+O prompt simples requisita a criação do CRUD de maneira direta, sem muitos detalhes da aplicação.
+
+-- Prompt utilizado
+--- Crie um programa que faça as operações CRUD em um banco de dados. Use a linguagem python para faze-lo.
+
+-- Resultado
+--- O código gerado funcionou sem falhas.
+--- Assim como o chatGPT, o prompt do codegeex criou uma conexão com o SQLite e realizou as operações CRUD.
+--- O prompt foi suficiente para gerar o código, sem necessidade de intervenção.
