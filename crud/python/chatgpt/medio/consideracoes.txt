@@ -1,0 +1,7 @@
+-- O prompt medio requisita a criação do CRUD de maneira um pouco mais elaborada, com alguns detalhes adiocionais, como o SGDB que deverá ser usado.
+
+-- Prompt utilizado
+--- Crie um programa usando a linguagem de programação python. Esse programa deverá realizar as operações Create, Read, Update e Delete em um banco de dados postgresql.
+
+-- Resultado
+--- O codigo funcionou corretamente, com algumas falhas de sintaxe que foram corrigidas(uso das '{}' no lugar do '%s' durante a formatação das variaveis). O banco de dados utilizado foi criado previamente e as credencias foram inseridas no codigo manualmente.

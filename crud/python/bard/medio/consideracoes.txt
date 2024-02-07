@@ -1,3 +1,7 @@
+-- O prompt medio requisita a criação do CRUD de maneira um pouco mais elaborada, com alguns detalhes adiocionais, como o SGDB que deverá ser usado.
 
--- Prompt utilizado:
---- Crie um programa usando a linguagem de programação python. Esse programa deverá realizar as operações Create, Read, Update e Delete em um banco de dados postgresql. 
+-- Prompt utilizado
+--- Crie um programa usando a linguagem de programação python. Esse programa deverá realizar as operações Create, Read, Update e Delete em um banco de dados postgresql.
+
+-- Resultado
+--- O codigo funcionou corretamente. Em comparação com o chatGPT, o bard criou as variáveis de conexão ao banco fora das funções de criação da tabela e de inserção de dados.

@@ -1,0 +1,11 @@
+-- O prompt medio requisita a criação do CRUD de maneira um pouco mais elaborada, com alguns detalhes adiocionais, como o SGDB que deverá ser usado.
+
+-- Prompt utilizado
+--- Crie um programa usando a linguagem de programação python. Esse programa deverá realizar as operações Create, Read, Update e Delete em um banco de dados postgresql.
+
+-- Resultado
+--- A ferramenta de chat do codeGeex não conseguiu gerar um código Python que atenda ao requisito.
+
+    "Não consegui criar um programa com as operações CRUD em um banco de dados PostgreSQL usando Python. A biblioteca psycopg2 é usada para fazer a conexão com o banco de dados PostgreSQL, mas ela não é instalada com a linguagem Python padrão. Para usar essa biblioteca, é necessário instalá-la separadamente."
+
+   
