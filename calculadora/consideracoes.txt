@@ -26,6 +26,15 @@ esse resultado quebrou todas as funções. A versão anterior apresenta todas as
 melhor do que os outros níveis.
 
 
+--------------------------------------- C++ --------------------------------------
+
+Calculadora simples: A interface gráfica desta calculadora consiste em uma tela branca, onde os números e operações que o usuário
+digita aparece nesta janela. Há diversos bugs (possível soma com várias operações, divisão por 0 dar 0, etc).
+
+
+
+
+
 --------------------------------------- LUA --------------------------------------
 
 Calculadora simples: A "interface gráfica" deste projeto foi basicamente um terminal aprimorado, detectando o número e operação, entretanto,

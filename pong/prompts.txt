@@ -10,3 +10,20 @@ aprimoradas, com uma IA simples para controlar a raqueta para rebatê-la, ela se
 rebatê-la, e com dinâmica de bola:  a velocidade da bola aumenta gradualmente após cada rebatida.
 
 Básico: Crie um jogo de Pong, utilizando javascript, html e css
+
+------------------ LINKS PROMPT ---------------------- 
+Web simples     => https://chat.openai.com/share/e7af763b-0949-41d7-b768-18cd73d62f26
+Web medio       => https://chat.openai.com/share/738bfba6-3c38-40e7-9e78-19535cac59d2
+Web avançado    => https://chat.openai.com/share/9f2502f5-3b4f-45ae-b65a-81090005036b
+
+Python simples  => https://chat.openai.com/share/74d139fc-f14b-423b-b451-75aa21d6642d
+Python medio    => https://chat.openai.com/share/ac967e5f-4243-411d-8d63-3a3efad44666
+Python avançado => https://chat.openai.com/share/0066b093-0073-40ec-a400-f9d56ca4a509
+
+C++ simples     =>
+C++ medio       =>
+C++ avançado    => 
+
+Lua simples     => https://chat.openai.com/share/b671690f-6afa-436c-bd4e-a13be9c0c77c
+Lua medio       => https://chat.openai.com/share/6bfd9029-9235-4c50-9723-ecb299cdee15
+Lua avançado    => https://chat.openai.com/share/04c4e580-6ebf-4e11-aa7b-d5d299f12219

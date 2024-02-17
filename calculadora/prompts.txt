@@ -107,3 +107,21 @@ Ao fornecer esses detalhes, posso ajudar a criar uma descrição mais precisa de
     Interface:
         Fácil de usar
         Agradável visualmente.'
+
+
+----- LINKS PROMPT ---- 
+Web simples     => https://chat.openai.com/share/c8156507-93c1-43be-8673-b19bd3a6b5ff
+Web medio       => https://chat.openai.com/share/b4154f3a-a0ad-4cd1-9dd4-5523476e5b9c
+Web avançado    => https://chat.openai.com/share/9e8ef9ad-8643-44ba-a6f9-72284afc2abf
+
+Python simples  => https://chat.openai.com/share/4140cb33-d114-45bd-b5bb-e456155b258c
+Python medio    => https://chat.openai.com/share/223637f9-589e-42e0-97f9-41faf2e299a9
+Python avançado => https://chat.openai.com/share/1df1a00e-88b8-447d-9cde-467309533aae
+
+C++ simples     =>
+C++ medio       =>
+C++ avançado    => 
+
+Lua simples     => https://chat.openai.com/share/440493bb-3a7c-4f54-9999-7ea9d134f85f
+Lua medio       => https://chat.openai.com/share/84437c23-b672-401a-9c18-9536d79d6bb1
+Lua avançado    => https://chat.openai.com/share/967c7dcf-4d8b-46de-bd79-8080454384ca
