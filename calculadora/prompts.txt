@@ -118,9 +118,9 @@ Python simples  => https://chat.openai.com/share/4140cb33-d114-45bd-b5bb-e456155
 Python medio    => https://chat.openai.com/share/223637f9-589e-42e0-97f9-41faf2e299a9
 Python avançado => https://chat.openai.com/share/1df1a00e-88b8-447d-9cde-467309533aae
 
-C++ simples     =>
-C++ medio       =>
-C++ avançado    => 
+C++ simples     => https://chat.openai.com/share/3cb84319-04d3-47bd-851b-766854266c56
+C++ medio       => https://chat.openai.com/share/c5f86b0a-f39f-4512-9f81-463202cb975a
+C++ avançado    => https://chat.openai.com/share/de481e3f-9d59-4f64-b1e4-6baf5f018099
 
 Lua simples     => https://chat.openai.com/share/440493bb-3a7c-4f54-9999-7ea9d134f85f
 Lua medio       => https://chat.openai.com/share/84437c23-b672-401a-9c18-9536d79d6bb1

@@ -28,10 +28,22 @@ melhor do que os outros níveis.
 
 --------------------------------------- C++ --------------------------------------
 
-Calculadora simples: A interface gráfica desta calculadora consiste em uma tela branca, onde os números e operações que o usuário
-digita aparece nesta janela. Há diversos bugs (possível soma com várias operações, divisão por 0 dar 0, etc).
+Calculadora simples: A interface gráfica desta calculadora consiste em uma tela branca, onde apenas os números aparecem na tela,
+por mais que no código o ChatGPT criou as implementações para as 4 operações básicas, elas não funcionam, apenas o botão 'enter'
+que simboliza o símbolo de igual '='.
 
+Calculadora média: A interface gráfica desta calculadora realmente é uma interface, ele fez utilizando a GUI Qt, entretanto, 
+apenas as funções trigonométricas funcionam, as outras operações não funcionam devido ao botão de '=' não funcionar, no lugar
+dele executar o cálculo que o usuário quer na calculadora, o símbolo de igual '=' é inserido no local de input, e não há como
+realizar algum cálculo. AS funções trigonométricas funcionam por não haver necessiade do símbolo de igual para realizar o cálculo.
 
+Calculadora avançada: Como usual, o ChatGPT relutou em enviar o projeto por completo, e fui pedindo para 
+ele implementar as funcionalidades restantes, e ele foi implementando pedaço por pedaço, de uma forma
+desorganizada que fez o programa não funcionar, por ele ter alucinado diversas funções, depois de 
+alguns prompts, pedi para ele consertar os códigos (mostrei os erros) e que ele me enviasse o código por
+inteiro. Desta vez funcionou, a calculadora está usual mas todas as funções 'avançadas' (trigonométricas, fatorial, raiz quadrada) não funcionam. Este projeto em si usei o Gemini e o Copilot do Microsoft Edge além do ChatGPT, devido a minha dificuldade do ChatGPT mandar o código por completo, mas o resultado do 
+Gemini foi o pior: mesmo eu insistindo para ele me mandar o código, ele me mandou apenas os passos necessários, e a versão do Edge foi mais simples do que a do ChatGPT. Até o dia 18/02/2024, não há como exportar uma conversa com o Gemini, mas tem como exportar como PDF a conversa do Edge, e este pdf está em:
+calculadora -> cpp -> avancado (calculadora/cpp/avancado)
 
 
 
@@ -41,8 +53,7 @@ Calculadora simples: A "interface gráfica" deste projeto foi basicamente um ter
 o resultado foi bem ruim, pois o único operando funcional é o '-', já que os o num Pad não funciona neste terminal, e os outros sinais
 matemáticos necessitam de comandos duplos, como 'BotãoShift + 'BotãoMaisIgual§'.
 
-Calculadora média: Bem simples, mas agora com uma interface gráfica e funcional, contendo apenas as 4 operações simples. Não teve nenhum
-bug.
+Calculadora média: Bem simples, mas agora com uma interface gráfica e funcional, contendo apenas as 4 operações simples. Não teve nenhum bug.
 
 Claculadora avançada: Neste projeto, o GPT decidiu fazer 4 arquivos e me enviar seus códigos separados, com a mesma proposta de outros prompts:
 "Te mando o esqueleto e você completa". Mandei ele completar, de pouco em pouco, mas o resultado final é simplesmente uma tela dividida 

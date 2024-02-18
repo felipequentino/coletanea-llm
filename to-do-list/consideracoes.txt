@@ -24,4 +24,4 @@ um código com apenas um erro, mas que facilmente ele consertou em seguida após
 surpreendente foi a escolha dele de usar SQLite3 para guardar e recuperar os dados.
 
 
---------------------------------------- LUA --------------------------------------
+--------------------------------------- C++ --------------------------------------

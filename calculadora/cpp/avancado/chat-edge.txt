@@ -1,0 +1,44 @@
+## Bing
+Criar uma calculadora completa com interface gráfica em C++ é um projeto bastante complexo e extenso. No entanto, posso fornecer um exemplo simples de como você pode começar a criar uma calculadora de console em C++. Este exemplo incluirá operações básicas como adição, subtração, multiplicação e divisão.
+
+#include<iostream>
+using namespace std;
+
+int main() {
+    int num1, num2;
+    char operacao;
+
+    cout << "Digite o primeiro número: ";
+    cin >> num1;
+
+    cout << "Digite a operação (+, -, *, /): ";
+    cin >> operacao;
+
+    cout << "Digite o segundo número: ";
+    cin >> num2;
+
+    switch(operacao) {
+        case '+':
+            cout << "Resultado: " << num1 + num2 << endl;
+            break;
+        case '-':
+            cout << "Resultado: " << num1 - num2 << endl;
+            break;
+        case '*':
+            cout << "Resultado: " << num1 * num2 << endl;
+            break;
+        case '/':
+            if(num2 != 0)
+                cout << "Resultado: " << num1 / num2 << endl;
+            else
+                cout << "Erro: Divisão por zero não é permitida." << endl;
+            break;
+        default:
+            cout << "Operação inválida." << endl;
+    }
+
+    return 0;
+}
+
+Para criar uma interface gráfica e adicionar funcionalidades mais avançadas, você precisará usar uma biblioteca de interface gráfica, como o Qt, e possivelmente expandir para uma estrutura orientada a objetos. Isso permitirá que você gerencie melhor a complexidade à medida que adiciona mais recursos à calculadora.
+Por favor, note que este é um projeto significativo e pode levar algum tempo para ser concluído, especialmente se você é novo na programação em C++. Recomendo que você comece com a versão de console e gradualmente adicione mais funcionalidades. Boa sorte! 😊
