@@ -1,14 +1,26 @@
-## Considerações sobre  Desenvolvimento Web:
+------------------------ Desenvolvimento Web (JS/HYML/CSS) ---------------------------------
 
-- Quanto mais elaborado o prompt for, mais bem sucedido é o resultado. Isso é facilmente perceptível, mas quando trata-se de desenvolvimento web, a porcentagem de acertos aumenta muito consideravelmente. O prompt avançado de Pong foi o único em que o ChatGPT entregou tudo que foi requisitado, sem bugs nenhum. 
+Pong simples: Neste projeto já apresenta um visual estilizado, a tela de jogo é cinza e o background é projeto, mas o jogo em si não funciona tão bem: a sensibilidade das raquetes são muito altas, de modo que quando pressionada as teclas W/S/ArrowUP/ArrowDown, as raquetes vão para ambas extremidades. Além disso, a física da bola funciona corretamente.
 
-## Considerações sobre Python:
+Pong médio: Neste nível, já há uma IA para controlar a outra raquete, entretando, a raquete do usuário não funciona, apenas funciona o controle para ir para 'cima'.
 
-- O prompt simples foi o pior de todos, com a velocidade da bola altíssima e com física apenas nas paredes, a física com as raquetes não funcionam.
-- O prompt médio resultou em menos bugs, mas ainda sim não é injogável, a bola se movimenta corretamente mas as físicas com as raquetes e com as paredes são inexistentes, de modo que a bola "some" da tela.
-- O prompt avançado foi o melhor: Física com as paredes e com as raquetes funcionando, a IA vai exatamente na posição da bola, prevendo o resultado muito antes da colisão ocorrer, e alterações visuais também foram feitas com sucesso. 
+Pong avançado: Há a possibilidade de modificar o visual do projeto, das raquetes, da bola e do background. Não há como ganhar da IA e a velocidade da bola não aumenta gradativamente, mas o resto funciona perfeitamente.
 
-## Considerações sobre Lua:
+------------------------------------ Python ---------------------------------------
+
+Pong simples: foi o pior de todos, com a velocidade da bola altíssima e com física apenas nas paredes, a física com as raquetes não funcionam.
+
+Pong médio: Este projeto resultou em menos bugs, mas ainda sim é injogável, a bola se movimenta corretamente mas as físicas com as raquetes e com as paredes são inexistentes, de modo que a bola "some" da tela.
+
+Pong avançado: O melhor resultado em Python, a física com as paredes e com as raquetes funcionando, a IA vai exatamente na posição da bola, prevendo o resultado muito antes da colisão ocorrer, e as alterações visuais são feitas no próprio código, não podendo ser modificada pelo usuário. Não há aumento de velocidade da bola.
+
+------------------------------------ C++ ---------------------------------------
+Pong simples: A raquete esquerda não possui física, e a física da outra raquete e das paredes são horríveis. O usuário controla as duas raquetes.
+
+Pong médio: Este projeto me surpreendeu, pois o Pong dele é feito no terminal, e apresenta um design bem feito, entretanto, a bola apenas vai e volta em linha reta, não há como a bola ir para qualquer outra direção.
+
+Pong avançado: O pior projeto avançado de Pong, nada funciona, nem bola a bola existe.
+------------------------------------ Lua ---------------------------------------
 
 - O prompt simples foi muito bom, o melhor dos 4 casos, o jogo contém física com as raquetes bem elaboradas, tento até diferença entre o rebate com base na posição da raquete, além de você controlar as duas raquetes com W/S e ArrowUP/ArrowDown.
 
@@ -16,7 +28,7 @@
 
 - O prompt avançado peca apenas na IA, sendo muito inferior em comparação com o prompt médio, mas as raquetes estão estilizadas, além do visual do jogo estar mais bem feito e a movimentação da raquete mais fluída. Fica atrás apenas do avançado do JS/HTML/CSS.
 
-## Considerações sobre WebAssembly:
+------------------------------------  WebAssembly------------------------------------ 
 
 - Um completo desastre, nenhum dos 3 níveis funciona, mesmo com diversos prompts apresentando os diversos erros gerados pelos códigos defeituosos às LLM. O avançado, depois de muitos prompts de insistência para a correção de erros, apresenta uma tela bem-feita, mas apenas isso, as raquetes não se movem e a bola é inexistente. O médio não funcionou, e o simples aparece a bola com uma velocidade muito rápida, e some rapidamente da tela (as raquetes também não funcionam). 
 - Acredito que ocorreu essa deficiência devido à falta de documentação sobre WASM, por ser um framework "novo". Uma prova disso foi a minha persistência nos prompts nível avançado ao ChatGPT 3.5, pois ele apresentou um caminho para se fazer o projeto, mas se negou a fazer 4 vezes. 
