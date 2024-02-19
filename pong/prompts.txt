@@ -20,10 +20,14 @@ Python simples  => https://chat.openai.com/share/74d139fc-f14b-423b-b451-75aa21d
 Python medio    => https://chat.openai.com/share/ac967e5f-4243-411d-8d63-3a3efad44666
 Python avançado => https://chat.openai.com/share/0066b093-0073-40ec-a400-f9d56ca4a509
 
-C++ simples     =>
-C++ medio       =>
-C++ avançado    => 
+C++ simples     => https://chat.openai.com/share/f6d2fddc-10a8-4c29-b9b8-f48b63443395
+C++ medio       => https://chat.openai.com/share/6180a06d-9e04-4ff0-9873-abdfeb359b35
+C++ avançado    => https://chat.openai.com/share/8a24fd02-8da5-4427-b23f-7c05743661b3
 
 Lua simples     => https://chat.openai.com/share/b671690f-6afa-436c-bd4e-a13be9c0c77c
 Lua medio       => https://chat.openai.com/share/6bfd9029-9235-4c50-9723-ecb299cdee15
 Lua avançado    => https://chat.openai.com/share/04c4e580-6ebf-4e11-aa7b-d5d299f12219
+
+WebAssembly simples  => https://chat.openai.com/share/f01971b4-780f-40e3-a9c8-d91fa13184a4
+WebAssembly medio    => https://chat.openai.com/share/de98e5ad-6d85-45f8-800e-12424bf62106
+WebAssembly avançado => https://chat.openai.com/share/2b91b9f1-59b8-4bf0-b0c7-c1ce823785e3
