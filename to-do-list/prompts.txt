@@ -116,6 +116,6 @@ Python simples  => https://chat.openai.com/share/b531dad0-7e2d-4fb9-ba6e-18beecd
 Python medio    => https://chat.openai.com/share/320fb69c-9bf1-4ebc-b827-14e2512e7696
 Python avançado => https://chat.openai.com/share/d4382b08-6a96-48af-92aa-65cec3b8b0ad
 
-C++ simples     =>
-C++ medio       =>
-C++ avançado    => 
+C++ simples     => https://chat.openai.com/share/88960e54-5142-4a1f-a374-b4b1f9ea367d
+C++ medio       => https://chat.openai.com/share/5435603c-47ae-471d-a268-bfd51d4a9aa3
+C++ avançado    => https://chat.openai.com/share/6af2b4f9-0413-4d7d-b9c0-aa1a301eb33b

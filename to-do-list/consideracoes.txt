@@ -25,3 +25,10 @@ surpreendente foi a escolha dele de usar SQLite3 para guardar e recuperar os dad
 
 
 --------------------------------------- C++ --------------------------------------
+
+To-do list simples: o projeto criado exibe tarefas designadas no próprio código, e as exibe em uma
+janela branca. Não da para inserir nem remover novas tasks. 
+
+To-do list medio: Perfeito, interface simples e organizada, salvamento e recuperação das tasks através de um txt está funcionando corretamente, as alterações só são realmente feitas a partir do salvamento dos dados, como requisitado.
+
+To-do list avançado: Ao contrário do esperado, o ChatGPT não negou em se fazer o projeto por inteiro, fez o código inteiro, com as especificações que pedi e o entregou. Mas não estava funcionando, falei o erro que estava gerando, ele corrigiu; deu outro erro, falei para ele, ele corrigiu e por final está funcional mas as funcionalidades ficam 'escondidas', de modo que não há como eu visualizar a descrição da atividade da própria aplicação, apenas no documento que é gerado (tasks.txt).
